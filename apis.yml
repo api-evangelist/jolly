@@ -1,7 +1,34 @@
 aid: jolly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jolly.png
 name: Jolly
-description: Jolly is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jolly is an AI-powered workforce engagement platform that uses a points-based
+  rewards system, gamification, and performance-based incentives to drive
+  engagement, utilization, compliance, and recruitment for frontline and
+  part-time workforces. Employees earn points by completing work-related
+  missions (taking shifts, arriving on time, hitting productivity goals) and
+  redeem them for real-world rewards from partners such as Walmart, Amazon, and
+  Visa. Employers use an AI campaign builder, programmatic employee referrals, an
+  internal social recognition platform, real-time analytics (flight-risk
+  detection, employee NPS, engagement metrics via ERP/EMR integrations), and
+  white-label branding. Jolly serves healthcare, logistics, manufacturing,
+  staffing, farming, retail, warehousing, construction, and military employers.
+  Based at Cornell Tech in New York City, the company raised a $16.5M Series A
+  and is backed by Bullpen Capital along with executives from Tesla, Coinbase,
+  Stripe, PayPal, and Discord. Jolly does not currently publish a public
+  developer API, SDKs, or documentation surface; this profile captures its
+  public identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/jolly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +38,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Workforce Engagement
+- Employee Rewards
+- Gamification
+- HR Tech
+- Frontline Workforce
+- Workforce Management
+- Recruiting
+- Incentives
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +57,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://jolly.com
+  url: https://jolly.com
+- type: TermsOfService
+  url: https://jolly.com/terms
+- type: PrivacyPolicy
+  url: https://jolly.com/privacy
+- type: Login
+  url: https://admin.joinperry.app/
+- type: Support
+  url: mailto:hey@jolly.com
+- type: DomainSecurity
+  url: security/jolly-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

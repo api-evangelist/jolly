@@ -49,7 +49,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Workforce Engagement
@@ -79,6 +79,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://jolly.com/blog
+  type: Blog
 - type: Website
   url: https://jolly.com
 - type: TermsOfService
